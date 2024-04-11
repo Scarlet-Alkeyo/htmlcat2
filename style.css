@@ -4,7 +4,7 @@
 }
 #navbar2{
     display: flex;
-    gap: 10%;
+    gap: 5%;
 }
 #Hero{
     color: pink;
@@ -49,6 +49,10 @@
 
     gap: 40%;
 }
+#image1{
+    display: flex;
+    gap: 20%;
+}
 
 
 
@@ -59,12 +63,26 @@
 
 
 
-@media screen and (min-width: 375px) and(max-width:768px){
+@media screen and (min-width: 375px) and(max-width:667px){
 
     #footer{
         display: flex;
+        flex-wrap: wrap;
     }
     #navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #image1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #icon1{
         display: flex;
         flex-wrap: wrap;
     }
@@ -72,13 +90,278 @@
 }
 
 
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #footer{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
 }
 
+@media screen and (min-width: 414px) and(max-width:896px){
+ 
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #image1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #icon1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
 #navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 390px) and(max-width:844px){
+   
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #image1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #icon1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 393px) and(max-width:851px){
+   
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #image1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #icon1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 360px) and(max-width:740px){
+   
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #image1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #icon1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 412px) and(max-width:915px){
+   
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #image1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #icon1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 820px) and(max-width:1180px){
+   
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #image1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #icon1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer{
     display: flex;
     flex-wrap: wrap;
 }
