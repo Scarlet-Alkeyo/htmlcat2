@@ -6,92 +6,88 @@
    .navbar{
 
     display: flex;
-    gap: 10%;
+    gap: 5%;
     
 }
 
 
 
 
-#loginbutton{
+#login-button{
     color: red;
     border-radius: 20px;
     height: 30px;
 }
-#joinnowbutton{
+#joinnow-button{
     color: white;
     background-color: red;
     border-radius: 40px;
     height: 30px;
-}.image1{
-    display: flex;
-    gap: 20%;
 }
+
 #Hero{
     color: red;
+
 }
-#home{
+#homepage{
     color: red;
 }
 
 
-#capeicon{
-    height: 2%;
-    width: 50px;
-}
-.icons{
+
+
+.footer{
     display: flex;
     gap: 5%;
 }
 .icon{
     width: 200px;
 }
-#monthly{
-    display: flex;
-}
-#guarantee{
-    display: flex;
-}
-#tickicon{
-    width: 50px;
-}
-#skillhero{
+
+#navbar-header{
     display: flex;
     
     
+    
 }
-#cape{
+#logo{
     width: 30px;
     height: 35px;
 }
-#skillbutton{
+#skill-button{
     border-radius: 20px;
     height: 30px   
 }
-#explorebutton{
+#explore-button{
     color: white;
     background-color: red;
     border-radius: 40px;
     height: 30px;    
 }
+#landing-content{
+    color: red;
+}
+#landing-page-content{
+    font-size: x-large;
 
-
-    
-
-
-#page2{
+}
+#subscription{
     display: flex;
-    gap: 15%;
-}
-#page4{
-    
-   display: flex; 
+    gap: 1%;
 }
 
-.text1{
-    display: flex;
-    gap: 20%;
+#tick-icon{
+    width: 40px;
 }
+.landing-page-content{
+    display: flex;
+    gap: 10%;
+}
+#landing-page-image{
+    object-fit: cover;
+    width: 300px;/
+}
+
  
 
 
@@ -104,362 +100,253 @@
 
 
 
-@media screen and (min-width: 375px) and(max-width:667px){
-    .text1{
-        display: flex;
-        flex-wrap: wrap;
-    }
+@media screen and (min-width: 365px) and(max-width:667px){
     .navbar{
 
         display: flex;
         flex-wrap: wrap;
+        gap: 5%;
+    
+        
     }
-    .icons{
+    #landing-page-content{
+        font-size: smaller;
+    
+    }
+    .landing-page-content{
         display: flex;
         flex-wrap: wrap;
+        gap: 0%;
     }
-
     
 
 
+
+    
 }
 
-.text1{
+.landing-page-content{
     display: flex;
     flex-wrap: wrap;
+    gap: 5%;
+}
+
+
+.navbar{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+
+    
+}
+#landing-page-content{
+    font-size: smaller;
+
+}
+
+
+
+.navbar{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+
+    
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+@media only screen and (min-width:400px) and ( max-width: 600px){
+
+    .navbar{
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    
+        
+    }
+    #landing-page-content{
+        font-size: smaller;
+    
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
 }
 .navbar{
 
     display: flex;
     flex-wrap: wrap;
+    gap: 5%;
+
+    
 }
-.icons{
+
+
+
+    
+
+.footer{
     display: flex;
     flex-wrap: wrap;
 }
+#landing-page-content{
+    font-size: smaller;
+
+}
 
 
+@media only screen and (min-width:600px) and ( max-width: 800px){
+
+
+    .navbar{
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    
+        
+    }
+    #landing-page-content{
+        font-size: smaller;
+    
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
+}
   
 
+.navbar{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+
+    
+}
 
 
 
+    
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+#landing-page-content{
+    font-size: smaller;
+
+}
 
 
+@media only screen and (min-width:800px) and ( max-width: 1000px){
 
 
-@media screen and (min-width: 414px) and(max-width:896px){
-    .text1{
-        display: flex;
-        flex-wrap: wrap;
-    }
     .navbar{
 
         display: flex;
         flex-wrap: wrap;
+        gap: 0;
+    
+        
     }
-    .icons{
+    #landing-page-content{
+        font-size: smaller;
+    
+    }
+    .footer{
         display: flex;
         flex-wrap: wrap;
     }
     
 
-
 }
+  
 
-.text1{
-    display: flex;
-    flex-wrap: wrap;
-}
 .navbar{
 
     display: flex;
     flex-wrap: wrap;
+    gap: 5%;
+
+    
 }
-.icons{
+
+
+
+    
+
+.footer{
     display: flex;
     flex-wrap: wrap;
 }
+#landing-page-content{
+    font-size: smaller;
 
+}
  
- 
 
 
 
+@media only screen and (min-width:1000px) and ( max-width: 1200px){
 
-@media screen and (min-width: 390px) and(max-width:844px){
-    .text1{
-        display: flex;
-        flex-wrap: wrap;
-    }
+
     .navbar{
 
         display: flex;
         flex-wrap: wrap;
+        gap: 0;
+    
+        
     }
-    .icons{
+    #landing-page-content{
+        font-size: smaller;
+    
+    }
+    .footer{
         display: flex;
         flex-wrap: wrap;
     }
     
 
 }
-.text1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.navbar{
-
-    display: flex;
-    flex-wrap: wrap;
-}
-.icons{
-    display: flex;
-    flex-wrap: wrap;
-}
-.menu-button-container {
-    display: none;
-    height: 100%;
-    width: 30px;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   
-  #menu-toggle {
-    display: none;
-  }
-  
-  /*  Creating the menu button */
-  .menu-button,
-  .menu-button::before,
-  .menu-button::after {
-    display: block;
-    background-color: #fff;
-    position: absolute;
-    height: 6px;
-    width: 32px;
-    border-radius: 3px;
-  }
-  
-  .menu-button::before {
-    content: '';
-    margin-top: -8px;
-  }
-  
-  .menu-button::after {
-    content: '';
-    margin-top: 8px;
-  }
 
-
-
-
-@media screen and (min-width: 393px) and(max-width:851px){
-   
-    .text1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navbar{
-
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .icons{
-        display: flex;
-        flex-wrap: wrap;
-    } 
-
-}
-
-.text1{
-    display: flex;
-    flex-wrap: wrap;
-}
 .navbar{
 
     display: flex;
     flex-wrap: wrap;
-}
-.icons{
-    display: flex;
-    flex-wrap: wrap;
-} 
+    gap: 5%;
 
-
-
-
-@media screen and (min-width: 360px) and(max-width:740px){
- 
     
-.text1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.navbar{
-
-    display: flex;
-    flex-wrap: wrap;
-}
-.icons{
-    display: flex;
-    flex-wrap: wrap;
-} 
-
-}
-
-
-.text1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.navbar{
-
-    display: flex;
-    flex-wrap: wrap;
-}
-.icons{
-    display: flex;
-    flex-wrap: wrap;
-} 
-
-
-
-@media screen and (min-width: 412px) and(max-width:915px){
-   
- 
-.text1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.navbar{
-
-    display: flex;
-    flex-wrap: wrap;
-}
-.icons{
-    display: flex;
-    flex-wrap: wrap;
-}  
-
 }
 
 
 
-
-
-
-@media screen and (min-width: 820px) and(max-width:1180px){
-   
-    .text1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navbar{
     
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .icons{
-        display: flex;
-        flex-wrap: wrap;
-    }  
 
-}
-
-.text1{
+.footer{
     display: flex;
     flex-wrap: wrap;
 }
-.navbar{
-
-    display: flex;
-    flex-wrap: wrap;
-}
-.icons{
-    display: flex;
-    flex-wrap: wrap;
-} 
-
-
-@media screen and (min-width: 768px) and(max-width:1024px){
-   
-    .text1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navbar{
-    
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .icons{
-        display: flex;
-        flex-wrap: wrap;
-    }  
-
-}
-@media screen and (min-width: 912px) and(max-width:1368px){
-   
-    .text1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navbar{
-    
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .icons{
-        display: flex;
-        flex-wrap: wrap;
-    }   
+#landing-page-content{
+    font-size: smaller;
 
 }
 
-.text1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.navbar{
 
-    display: flex;
-    flex-wrap: wrap;
-}
-.icons{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-@media screen and (min-width: px) and(max-width:1368px){
-   
-    .text1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navbar{
-    
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .icons{
-        display: flex;
-        flex-wrap: wrap;
-    } 
-
-}
-.text1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.navbar{
-
-    display: flex;
-    flex-wrap: wrap;
-}
-.icons{
-    display: flex;
-    flex-wrap: wrap;
-}
